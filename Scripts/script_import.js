@@ -2,7 +2,7 @@
 // Importa il Nickzionario
 window.addEventListener('load', function(){
 	// Compile the Handlebars template for HR leaders.
-	var HRTemplate = Handlebars.compile($('#hr-template').html());
+	// // var HRTemplate = Handlebars.compile($('#hr-template').html());
 	// Il valore dopo gid= indica quale sheet prendere. In questo caso è il Nickzionario
 	// var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1LS-6HtyDrVj-kFU_eVI9DP_210kMRwzgjqR74MmLlM4/edit#gid=1251584737";
 	 var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1HHpFXmhB6Rz_X_1VYlfXzYYj_XHULT1rwItg10GxjC8/edit#gid=0";
@@ -11,7 +11,7 @@ window.addEventListener('load', function(){
 
 	$(tabella).sheetrock({
 		url: mySpreadsheet,
-		rowTemplate: HRTemplate,
+		// // rowTemplate: HRTemplate,
 	});
 });
 
