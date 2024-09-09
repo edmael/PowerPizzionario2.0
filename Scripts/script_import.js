@@ -20,7 +20,7 @@ window.addEventListener('load', function(){
 	// Compile the Handlebars template for HR leaders.
 	var HRTemplate = Handlebars.compile($('#hr-template').html());
 	// Il valore dopo gid= indica quale sheet prendere. In questo caso è il VocaboLorro
-	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1LS-6HtyDrVj-kFU_eVI9DP_210kMRwzgjqR74MmLlM4/edit#gid=1028198677";
+	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1HHpFXmhB6Rz_X_1VYlfXzYYj_XHULT1rwItg10GxjC8/edit#gid=1028198677";
 
 	// Load top five HR leaders.
 	$('#lorro').sheetrock({
@@ -33,7 +33,7 @@ window.addEventListener('load', function(){
 window.addEventListener('load', function(){
 	// Compile the Handlebars template for HR leaders.
 	var HRTemplate = Handlebars.compile($('#hr-template').html());
-	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1LS-6HtyDrVj-kFU_eVI9DP_210kMRwzgjqR74MmLlM4/edit#gid=1064334510";
+	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1HHpFXmhB6Rz_X_1VYlfXzYYj_XHULT1rwItg10GxjC8/edit#gid=1064334510";
 
 	$('#sio').sheetrock({
 		url: mySpreadsheet,
@@ -45,7 +45,7 @@ window.addEventListener('load', function(){
 window.addEventListener('load', function(){
   // Compile the Handlebars template for HR leaders.
 	var HRTemplate = Handlebars.compile($('#hr-template').html());
-	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1LS-6HtyDrVj-kFU_eVI9DP_210kMRwzgjqR74MmLlM4/edit#gid=2125024679";
+	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1HHpFXmhB6Rz_X_1VYlfXzYYj_XHULT1rwItg10GxjC8/edit#gid=2125024679";
 
 	$('#community').sheetrock({
 		url: mySpreadsheet,
@@ -57,7 +57,7 @@ window.addEventListener('load', function(){
 window.addEventListener('load', function(){
 	var HRTemplate = Handlebars.compile($('#hr-template').html());
 
-	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1LS-6HtyDrVj-kFU_eVI9DP_210kMRwzgjqR74MmLlM4/edit#gid=1888768207";
+	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1HHpFXmhB6Rz_X_1VYlfXzYYj_XHULT1rwItg10GxjC8/edit#gid=1888768207";
 	var testoquery = "select B,C,D";
 
 	$('#pizzaquotes').sheetrock({
@@ -70,7 +70,7 @@ window.addEventListener('load', function(){
 // Importa le Pizzaquotes random
 window.addEventListener('load', function(){
 	var HRTemplate = Handlebars.compile($('#hr-template-random').html());
-	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1LS-6HtyDrVj-kFU_eVI9DP_210kMRwzgjqR74MmLlM4/edit#gid=1888768207";
+	var mySpreadsheet = "https://docs.google.com/spreadsheets/d/1HHpFXmhB6Rz_X_1VYlfXzYYj_XHULT1rwItg10GxjC8/edit#gid=1888768207";
 
 	// Cambiare questo valore se aumentano le Pizzaquotes
 	var numQuotes = 72;
